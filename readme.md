@@ -45,7 +45,7 @@ If you want to contribute to ChatGPT, please follow these steps:
 
 ## Authors
 
-- **Eric Vivens** - *Initial work* - [(https://github.com/ericv-png)
+- **Eric Vivens** - *Initial work* - [(https://github.com/ericv-png)]
 
 ## License
 
