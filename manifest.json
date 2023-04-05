@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Chromimum ChatGPT",
+  "version": "1.0",
+  "description": "Get AI assistance while browsing the web with ChatGPT chrome plugin that brings an AI assistant right to your browser.",
+  "options_page": "settings.html",
+  "action": {
+    "default_icon": "/images/icon48.png",
+    "default_popup": "popup.html",
+    "default_title": "Chat Box Extension"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "48": "/images/icon48.png"
+  },
+  "host_permissions": [
+    "https://platform.openai.com/"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://api.openai.com/"
+  },
+  "background": {
+  "service_worker": "/js/background.js"
+}
+}

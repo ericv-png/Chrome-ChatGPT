@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrome ChatGPT Settings</title>
+  <link rel="stylesheet" href="/css/settings.css">
+</head>
+<body>
+  <div id="settings-form">
+    <h1>Chrome ChatGPT Settings</h1>
+	
+    <form>
+      <label for="api-key">OpenAI API Key:</label>
+      <input type="text" id="api-key" name="api-key">
+      <p class="explanation">Enter your OpenAI API key here.</p>
+	  
+      <label for="url">API URL:</label>
+	  <input type="text" id="url" name="url" placeholder="https://api.openai.com/v1/chat/completions">
+	  <p class="explanation">Enter the API URL to use (e.g., "https://api.openai.com/v1/chat/completions").</p>
+
+      <label for="model">Model:</label>
+      <input type="text" id="model" name="model">
+      <p class="explanation">Select the GPT model to use (e.g., "gpt-3.5-turbo").</p>
+      
+      <label for="max-tokens">Max Tokens:</label>
+      <input type="number" id="max-tokens" name="max-tokens">
+      <p class="explanation">Set the maximum number of tokens for the generated response.</p>
+      
+      <label for="n">Iterations (N):</label>
+      <input type="number" id="n" name="n">
+      <p class="explanation">The number of completions to generate for each prompt.</p>
+      
+      <label for="stop">Stop:</label>
+      <input type="text" id="stop" name="stop">
+      <p class="explanation">Sequence where the API will stop generating tokens (e.g., "\n"). This is set to null by default.</p>
+      
+      <label for="temperature">Temperature:</label>
+      <input type="number" id="temperature" name="temperature" step="0.01">
+      <p class="explanation">Set the temperature value to control the randomness of the generated text.</p>
+      
+      <button type="submit">Save</button>
+    </form>
+	    <p id="success-message" class="success-message">Settings saved successfully!</p>
+
+  </div>
+  <footer>
+    <p>For more information or to contribute to this project, please visit the <a href="https://github.com/ericv-png/Chrome-ChatGPT">Chromimum GPT Chat GitHub repository</a>.</p>
+</footer>
+
+  <script src="/js/settings.js"></script>
+</body>
+
+</html>

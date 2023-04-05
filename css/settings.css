@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column; /* Add this to make the footer sticky */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+#settings-form {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 90%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #0056B3;
+}
+
+.explanation {
+  font-size: 12px;
+  color: #666;
+}
+
+.success-message {
+  display: none;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+
+footer {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
