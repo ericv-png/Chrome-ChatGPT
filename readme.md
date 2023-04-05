@@ -45,8 +45,8 @@ If you want to contribute to ChatGPT, please follow these steps:
 
 ## Authors
 
-- **Eric Vivens** - *Initial work* - https://github.com/ericv-png
+- **Eric Vivens** - *Initial work* - [Ericv-png](https://github.com/ericv-png)
 
 ## License
 
-This project is licensed under the MPL 2.0 License - see the [LICENSE] file for details.
+This project is licensed under the MPL 2.0 License - see the [LICENSE](https://github.com/ericv-png/Chrome-ChatGPT/blob/main/LICENSE) file for details
