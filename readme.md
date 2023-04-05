@@ -1,4 +1,6 @@
 # ChatGPT Browser Extension
+![Alt Text](./docs/chrome-chat-gpt-demo.gif)
+
 
 Chrome ChatGPT is a Chromium plugin that enables users to chat with ChatGPT directly in their browser. It has an options page and saves chat messages for context, allowing for a better understanding of the user's needs.
 
