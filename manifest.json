@@ -15,9 +15,6 @@
   "icons": {
     "48": "/images/icon48.png"
   },
-  "host_permissions": [
-    "https://platform.openai.com/"
-  ],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://api.openai.com/"
   },
